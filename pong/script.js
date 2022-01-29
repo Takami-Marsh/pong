@@ -183,7 +183,7 @@ $(document).ready(function () {
             speed_2 = Math.floor(Math.random() * 3 - 1);
           }
         }
-        else if (bot_c == 3 && total_bot % 20 == 0) {
+        else if (bot_c == 3 && total_bot % 30 == 0) {
           by_position = Number($('.ball').css('top').replace('px', ''));
           area2 = Number($('.paddle2').css('top').replace('px', '')) + 50;
           if (by_position > area2 && by_position - area2 + 50 > 80) {
